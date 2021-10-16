@@ -2,7 +2,7 @@
 Introduction to Node.js
 
 ## Installing Node.js on macOS and Linux
-In this section, we will look at installing Node on macOS and Linux. For Windows users feel free to skip to the next section, unless using Windows Subsystem for Linux v2 in which case this section may also be relevant.
+In this section, we will look at installing Node on macOS and Linux. 
 
 The recommended way to install Node.js on macOS and Linux is by using a Node version manager, in particular nvm. We are going to install nvm and then use it to install Node.
 
