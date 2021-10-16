@@ -2,15 +2,18 @@
 Introduction to Node.js
 
 ## Installing Node.js on macOS and Linux
-In this section, we will look at installing Node on macOS and Linux. 
+In this section, we will look at installing Node on macOS and Linux.
+
+### More information can found here:
+https://github.com/nvm-sh/nvm/
 
 The recommended way to install Node.js on macOS and Linux is by using a Node version manager, in particular nvm. We are going to install nvm and then use it to install Node.
 
-The current nvm version is v0.37.2 (as of December 2020), so the install process will contain this version in the URL, if a greater version is out at time of reading, replace v0.37.2 with the current nvm version. For this installation process we assume that Bash, Sh, or Zsh is the shell being used, Fish is not supported but see the nvm readme for alternatives.
+The current nvm version is v0.39.0 (as of October 2021), so the install process will contain this version in the URL, if a greater version is out at time of reading, replace v0.39.0 with the current nvm version. For this installation process we assume that Bash, Sh, or Zsh is the shell being used, Fish is not supported but see the nvm readme for alternatives.
 
-The way to install nvm is via the install script at https://github.com/nvm-sh/nvm/blob/v0.37.2/install.sh. If curl is installed (it usually is) a single command can be used to install and setup nvm:
+The way to install nvm is via the install script at https://github.com/nvm-sh/nvm/blob/v0.39.0/install.sh. If curl is installed (it usually is) a single command can be used to install and setup nvm:
 
-``curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash``
+``curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash``
 
 If using zsh (e.g. on newer macOS releases) the bash part of the command can be replaced with zsh.
 
